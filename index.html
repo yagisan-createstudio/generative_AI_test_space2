@@ -41,6 +41,7 @@ td{padding:16px 14px;line-height:29px}
 [hidden]{display:none!important}
 @media(max-width:1040px){.header-inner,main{margin-left:20px;margin-right:20px}}
 @media(max-width:600px){.header-inner{align-items:flex-start;gap:14px;flex-direction:column;padding:16px 0}.settings{padding:0}.university{font-size:22px}main{margin-top:20px}h1{font-size:19px}h2{font-size:16px}.table-scroll{overflow:auto}table{min-width:570px}.header-inner,main{margin-left:16px;margin-right:16px}}
+.announcement{margin-top:16px;padding:12px 14px;border:1px solid #ccc;background:#f7f7f7;line-height:1.8}.announcement p{margin:0}.announcement .published-at{margin-top:6px;font-size:calc(12px * var(--scale));color:#666}
 </style>
 </head>
 <body>
@@ -59,6 +60,10 @@ td{padding:16px 14px;line-height:29px}
 <main>
 <section id="results" aria-labelledby="page-title">
 <h1 id="page-title"><span>オンライン合否照会</span></h1>
+<div class="announcement" role="note" aria-label="合否発表に関するお知らせ">
+<p>PHPの脆弱性への対応に伴い、合否発表が当初の予定より遅れました。お待ちいただいた皆様には、ご迷惑をおかけしましたことをお詫び申し上げます。</p>
+<p class="published-at">公開日時：<time datetime="2026-11-04T00:00:00+09:00">2026年11月4日 0:00</time></p>
+</div>
 <h2><span>工学部総合型選抜</span></h2>
 <div class="table-scroll"><table aria-label="合否照会結果">
 <colgroup><col class="result"><col class="course"><col class="number"></colgroup>
